@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=Vortex Debian
+Description=Debian logo with spinning colored stripes
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/vortex-debian
+ScriptFile=/usr/share/plymouth/themes/vortex-debian/vortex-debian.script
+UseFirmwareBackground=false
