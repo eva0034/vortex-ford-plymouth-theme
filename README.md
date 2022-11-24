@@ -1,6 +1,6 @@
-# Vortex Ubuntu
+# Vortex Debian
 
-Animated plymouth theme with ubuntu logo and a futuristic and elegant look.
+Animated plymouth theme with debian logo and a futuristic and elegant look.
 
 It is a simple plymouth theme with shell scripts to install, test and eventualy uninstall the theme.
 the theme have animations that makes the colored strips spin at different velocities with a vortex effect and on boot up it offers a simple but elegant progress bar
@@ -16,9 +16,9 @@ the theme have animations that makes the colored strips spin at different veloci
 
 
 ### Boot up splash screen
-![boot up splash screen](https://i.imgur.com/saWDpPb.png)
+![boot up splash screen](https://imgur.com/EnYIEAQ.png)
 ### Shutdown splash screen
-![shutdown splash screen](https://i.imgur.com/UkLr5pX.png)
+![shutdown splash screen](https://imgur.com/Wcy2qD8.png)
 
 
 
@@ -26,12 +26,13 @@ the theme have animations that makes the colored strips spin at different veloci
 # Installation
 
 
-> ### NOTE: apt compatible package coming soon!
+<!-- > ### NOTE: apt compatible package coming soon! -->
+> ### NOTE: Custom install options coming soon!
 
 
-* go to the downloaded `vortex-ubuntu-plymouth-theme` folder from terminal, it can be done with the following command
+* go to the downloaded `vortex-debian-plymouth-theme` folder from terminal, it can be done with the following command
 ```
-cd /PATH/TO/vortex-ubuntu-plymouth-theme
+cd /PATH/TO/vortex-debian-plymouth-theme
 ```
 or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
 * make the `install` file executable, it can be done with the following command
@@ -48,9 +49,9 @@ sudo ./install
 
 # Test
 
-* go to the downloaded `vortex-ubuntu-plymouth-theme` folder from terminal, it can be done with the following command
+* go to the downloaded `vortex-debian-plymouth-theme` folder from terminal, it can be done with the following command
 ```
-cd /PATH/TO/vortex-ubuntu-plymouth-theme
+cd /PATH/TO/vortex-debian-plymouth-theme
 ```
 or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
 * make the `show-splash.sh` file executable, it can be done with the following command
@@ -67,9 +68,9 @@ sudo ./show-splash.sh
 
 # Removal
 
-* go to the downloaded `vortex-ubuntu-plymouth-theme` folder from terminal, it can be done with the following command
+* go to the downloaded `vortex-debian-plymouth-theme` folder from terminal, it can be done with the following command
 ```
-cd /PATH/TO/vortex-ubuntu-plymouth-theme
+cd /PATH/TO/vortex-debian-plymouth-theme
 ```
 or by opening the folder with your file explorer and going to RIGHT-CLICK > Open in Terminal
 * make the `uninstall` file executable, it can be done with the following command
@@ -87,11 +88,11 @@ sudo ./uninstall
 
 # Customizing background color
 
-* open the file in `vortex-ubuntu/bg.png` in any image editor of your choice
+* open the file in `vortex-debian/bg.png` in any image editor of your choice
 
 * fill the image with the color you want as background
 
-* save changes ensuring to NOT change neither the file name `bg.png` neither his location `vortex-ubuntu`
+* save changes ensuring to NOT change neither the file name `bg.png` neither his location `vortex-debian`
 
 * proceed to installation/reinstallation
 
@@ -100,9 +101,9 @@ sudo ./uninstall
 
 # Customizing background image
 
-* rename, remove or move to a different folder the file in `vortex-ubuntu/bg.png`
+* rename, remove or move to a different folder the file in `vortex-debian/bg.png`
 
-* put your custom background image IN PNG FORMAT inside the `vortex-ubuntu` folder
+* put your custom background image IN PNG FORMAT inside the `vortex-debian` folder
 
 * rename your custom beckground image as `bg.png`
 
