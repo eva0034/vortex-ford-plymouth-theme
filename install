@@ -58,7 +58,13 @@ if [ $? -gt 0 ]; then
 fi
 echo "[done]" ;
 
-
+# setting vortex-debian as default plymouth theme;
+plymouth-set-default-theme -R vortex-debian
+if [ $? -gt 0 ]; then
+	echo -e "\nan error occoured executing \plymouth-set-default-theme -R vortex-debian\"";
+	exit 1;
+fi
+echo "[done]";
 
 echo "vortex-debian is your plymouth theme now :)" ;
 
