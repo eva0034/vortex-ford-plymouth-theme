@@ -27,7 +27,7 @@ the theme have animations that makes the colored strips spin at different veloci
 
 
 <!-- > ### NOTE: apt compatible package coming soon! -->
-> ### NOTE: Custom install options coming soon!
+<!-- > ### NOTE: Custom install options coming soon! -->
 
 
 * go to the downloaded `vortex-debian-plymouth-theme` folder from terminal, it can be done with the following command
