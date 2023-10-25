@@ -1,0 +1,9 @@
+[Plymouth Theme]
+Name=Vortex Ford
+Description=Ford LOGO with spinning colored stripes
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/vortex-ford
+ScriptFile=/usr/share/plymouth/themes/vortex-ford/vortex-ford.script
+UseFirmwareBackground=false
